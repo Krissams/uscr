@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="indigo darken-4 white-text top-bar bounceInDown wow">
-      CALL US +912-123-123-123
+      CALL US 888-388-USCR
   </div>
   <nav class=" indigo darken-3  bounceInDown wow" role="navigation">
     <div class="nav-wrapper container">

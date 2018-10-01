@@ -19,7 +19,7 @@
         <div class="col l3 s12">
           <h5 class="white-text">Follow us</h5>
           <ul>
-            <li><a class="white-text" href="#!">Facebook</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/pages/USCR-Technology/1445156405705358">Facebook</a></li>
             <li><a class="white-text" href="#!">Twitter</a></li>
             <li><a class="white-text" href="#!">Instagram</a></li>
             <li><a class="white-text" href="#!">Google Plus</a></li>
