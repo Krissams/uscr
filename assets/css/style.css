@@ -1,0 +1,237 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  z-index: 99;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  line-height: 0;
+  height: 100vh;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.logo-img{
+  width: 135px;
+}
+
+.logo-img, .main-nav-bar{
+ 
+}
+
+.btn, .btn-large, .btn:visited, .btn-large:visited  {
+  background-color: #2e2ec5;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #2e2ec5;
+}
+
+
+#index-banner .container{
+  padding-top: 99px;
+}
+
+hr{
+    height: 5px;
+    border-color: #2e2ec5;
+    background: #2e2ec5;
+}
+
+h3{
+  color: #2e2ec5;
+}
+
+.rating-box{
+  width: 100%;
+}
+
+.rating-box i{
+  float: left;
+  width: 30px;
+  color: #2e2ec5;
+}
+
+.body-container{
+  min-height: 100vh;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Dashboard-Header{
+    text-align: left;
+    background-color: #2e2ec5;
+    padding: 1px 0px 5px 35px;
+    border: 1px solid #000;
+    position: relative;
+    padding-left: 180px;
+}
+
+.points{
+    float: right;
+    position: absolute;
+    top: 0;
+    width: 120px;
+    right: 0;
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+
+.badge{
+  width: 85px;
+  visibility: hidden;
+}
+
+.Dashboard-Content{
+
+}
+
+.card-title{
+  text-align: left;
+}
+
+.top-bar{
+  text-align: right;
+  padding: 10px;
+  padding-right: 215px;
+}
+
+.divider-img{
+  width: 100%;
+  top: -125px;
+  position: relative;
+  z-index: -1;
+}
+
+
+.parallax img{
+  width: 100%;
+
+}
+
+.badge1{
+  width: 100%;
+  top: -125px;
+  position: relative;
+}
+
+.badge1-col{
+  height: 325px;
+}
+.parallax-container{
+    
+}
+
+.divider-img-container{
+  height: 50px;
+}
+
+@media only screen and (max-width : 992px) {
+  .badge1{
+    top: 0;
+  }
+
+  .divider-img-container{
+    min-height: 50px;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .body-container{
+    margin-top: 125px;
+  }
+  .Dashboard-Header{
+    text-align: center;
+    margin-left: 0px;    
+    padding: 25px 0px 5px 5px;
+  }
+  .points{
+    width: 100%;
+  }
+
+  .top-bar{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   }
+   .badge1-col{
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .body-container{
+    margin-top: 125px;
+  }
+  .Dashboard-Header{
+    text-align: center;
+    margin-left: 0px;    
+    padding: 25px 0px 5px 5px;
+  }
+  .points{
+    position: relative;
+    width: 100%;
+    padding: 10px;  
+  }
+
+
+  .top-bar{
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   padding: 10px;
+  }
+
+  .badge1{
+    top: 0;
+  }
+
+  .divider-img-container{
+    min-height: 50px;
+  }
+  
+  .badge1-col{
+    height: auto;
+  }
+  
+}
